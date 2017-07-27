@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git@github.com:1Conan/albion-online-api.git"
   },
+  "keywords": [
+    "albion",
+    "albion online",
+    "albion online api"
+  ],
   "author": "1Conan",
   "license": "GPL-3.0",
   "dependencies": {
