@@ -1,6 +1,6 @@
 {
   "name": "albion-online-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "API for Albion Online",
   "main": "index.js",
   "scripts": {
