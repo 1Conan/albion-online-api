@@ -1,0 +1,14 @@
+{
+  "name": "albion-api",
+  "version": "0.0.1",
+  "description": "API for Albion Online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1Conan",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "snekfetch": "^3.2.4"
+  }
+}
