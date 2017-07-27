@@ -1,5 +1,5 @@
 {
-  "name": "albion-api",
+  "name": "albion-online-api",
   "version": "0.0.1",
   "description": "API for Albion Online",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "respotory": {
     "type": "git",
-    "url": "https://github.com/1Conan/albion-api-node.git"
+    "url": "git@github.com:1Conan/albion-online-api.git"
   },
   "author": "1Conan",
   "license": "GPL-3.0",
