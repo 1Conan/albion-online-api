@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "respotory": {
+    "type": "git",
+    "url": "https://github.com/1Conan/albion-api-node.git"
+  },
   "author": "1Conan",
   "license": "GPL-3.0",
   "dependencies": {
