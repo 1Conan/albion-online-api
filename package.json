@@ -1,14 +1,14 @@
 {
   "name": "albion-online-api",
-  "version": "0.0.2",
-  "description": "API for Albion Online",
+  "version": "0.0.3",
+  "description": "WIP API Library for Albion Online",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "respotory": {
     "type": "git",
-    "url": "git@github.com:1Conan/albion-online-api.git"
+    "url": "git+https://github.com/1Conan/albion-online-api.git"
   },
   "keywords": [
     "albion",
@@ -19,5 +19,12 @@
   "license": "GPL-3.0",
   "dependencies": {
     "snekfetch": "^3.2.4"
-  }
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/1Conan/albion-online-api/issues"
+  },
+  "homepage": "https://github.com/1Conan/albion-online-api"
 }
