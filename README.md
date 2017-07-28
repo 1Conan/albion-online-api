@@ -1,7 +1,8 @@
 ---
+
 Just a basic API Library for Albion Online. (I do not play the game. I was supposed to write this as a task in r/slavelabour.)
 
-PS: this is WIP. I won't work on this that much if anyone will ask.
+PS this is WIP. I won't work on this that much if anyone will ask.
 
 
 ---
