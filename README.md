@@ -1,6 +1,8 @@
 ---
 Just a basic API Library for Albion Online. (I do not play the game. I was supposed to write this as a task in r/slavelabour.)
 
+PS: this is WIP. I won't work on this that much if anyone will ask.
+
 ---
 
 # How To Use
@@ -78,3 +80,9 @@ Events.on('event', (data) => {
 })
 Events.listen();
 ```
+
+TODO:
+
+- Add filtering options for the contructor
+
+- Make it emit events that occured occurred after the module is loaded instead of emiting everything at start. (Should be easy. Just busy for now)
