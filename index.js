@@ -19,9 +19,10 @@ class Events extends EventEmitter {
       const data = res.body;
       
       if(this.initialized === false) {
-          data.forEach((item) => {
-            this.processed.push(item.EventId)
-          })
+        data.forEach((item) => {
+          this.processed.push(item.EventId)
+        })
+        this.initialized = true;
       }
       data.forEach((item) => {
         
