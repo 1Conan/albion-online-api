@@ -12,13 +12,20 @@ class Events extends EventEmitter {
     super()
     this.processed = []
     this.url = `${baseUrl}/events?limit=50&offset=0`
+    this.intialized = false;
   }
   listen() {
     request.get(this.url).then((res) => {
       const data = res.body;
-
+      
+      if(this.initialized === false) {
+        data.forEach((item) => {
+          this.processed.push(item.EventId)
+        })
+        this.initialized = true;
+      }
       data.forEach((item) => {
-
+        
         if(this.processed.indexOf(item.EventId) > -1) return;
         if(this.processed.length > 500) this.processed = this.processed.slice(250)
 
