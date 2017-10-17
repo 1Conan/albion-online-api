@@ -71,11 +71,14 @@ albion.getGuildInfo({guildId: 'Pofs7UvDTvC2ODQH1yRGWA'}).then(data => {
 ```
 
 # Events
-A VERY crappy implementation. I'm gonna fix this in the future.
+~~A VERY crappy implementation. I'm gonna fix this in the future.~~
+Somewhat decent now. (I think)
 ```js
 const albion = require('albion-online-api');
 
 const Events = new albion.Events();
+//or
+//const Events = new albion.Events(2); //for custom intervals. In seconds.
 
 Events.on('event', (data) => {
     console.log(data) // [Object object]
@@ -87,4 +90,4 @@ TODO:
 
 - Add filtering options for the contructor
 
-- Make it emit events that occured occurred after the module is loaded instead of emiting everything at start. (Should be easy. Just busy for now)
+- ~~Make it emit events that occured occurred after the module is loaded instead of emiting everything at start. (Should be easy. Just busy for now)~~(Done)
