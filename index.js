@@ -8,8 +8,9 @@ const EventEmitter = require('events');
 
 const baseUrl = `https://gameinfo.albiononline.com/api/gameinfo`;
 class Events extends EventEmitter {
-  constructor(options = {}) {
+  constructor(delay = 2) {
     super()
+    this.delay = delay
     this.processed = []
     this.url = `${baseUrl}/events?limit=50&offset=0`
     this.intialized = false;
@@ -33,7 +34,7 @@ class Events extends EventEmitter {
         this.emit('event', item);
       });
       
-      setTimeout(() => {this.listen()}, 2 * 1000);
+      setTimeout(() => {this.listen()}, this.delay * 1000);
     })
   }
 }
